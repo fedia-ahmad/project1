@@ -1,0 +1,93 @@
+body {
+    font-size: large;
+    font-family: "Bai Jamjuree", monospace;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #f7f7f7 url('https://clipboard-landing-page-gdw8.onrender.com/images/bg-header-desktop.png') no-repeat top;
+
+}
+
+section{
+    padding-bottom: -10%;
+    padding-top: 15%;
+}
+.img {
+    width: 70px;
+    position: absolute;
+    left:100%;
+    bottom:30%;
+}
+
+.second{
+    position: absolute;
+    right:5%;
+    top:80%;
+}
+
+.second img {
+    width: 500px;
+    position: relative;
+    left:-40rem;
+    top:25rem;
+}
+
+.btn {
+    background-color: hsl(171, 66%, 44%);
+    border: none;
+    color: white;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 30cm;
+}
+
+.bnt {
+    background-color: hsl(233, 100%, 69%);
+    border: none;
+    color: white;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 30cm;
+}
+
+.third{
+    position: relative;
+    bottom: -15rem;
+}
+
+.fivth{
+    display:flex;
+    padding-top: 5rem;
+}
+
+.web{
+    display:inline-flex;
+    padding: 20px 4px;
+    gap:5rem;
+}
+
+.finally{
+    width: 70px;
+    position: absolute;
+    left: 0;
+}
+
+.link a {
+    text-decoration: none;
+    color:black;
+    gap: 5rem;
+    display:contents;
+}
+.icons{
+    position: absolute;
+    right:0;
+}
